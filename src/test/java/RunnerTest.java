@@ -23,7 +23,7 @@ public class RunnerTest {
         String[] args = {filePath};
         runner.main(args);
         String actualOutput = outContent.toString();
-        String expectedOuput = "Created a parking lot with 6 slots\n" +
+        String expectedOutput = "Created a parking lot with 6 slots\n" +
                 "Allocated slot number: 1\n" +
                 "Allocated slot number: 2\n" +
                 "Allocated slot number: 3\n" +
@@ -31,19 +31,19 @@ public class RunnerTest {
                 "Allocated slot number: 5\n" +
                 "Allocated slot number: 6\n" +
                 "Slot number 4 is free\n" +
-                "Slot No.    Registration No    Color\n" +
-                "1   KA-01-HH-1234   White\n" +
-                "2   KA-01-HH-9999   White\n" +
-                "3   KA-01-BB-0001   Black\n" +
-                "5   KA-01-HH-2701   Blue\n" +
-                "6   KA-01-HH-3141   Black\n" +
+                "Slot No.    Registration No    Colour\n" +
+                "1           KA-01-HH-1234      White \n" +
+                "2           KA-01-HH-9999      White \n" +
+                "3           KA-01-BB-0001      Black \n" +
+                "5           KA-01-HH-2701      Blue  \n" +
+                "6           KA-01-HH-3141      Black \n" +
                 "Allocated slot number: 4\n" +
                 "Sorry, parking lot is full\n" +
                 "KA-01-HH-1234, KA-01-HH-9999, KA-01-P-333\n" +
                 "1, 2, 4\n" +
                 "6\n" +
                 "Not found\n";
-        assertThat(actualOutput, is(expectedOuput));
+        assertThat(actualOutput, is(expectedOutput));
     }
 
     @Test
