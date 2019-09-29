@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle
+.idea
+build
+functional_spec
+gradle
+out
+temp
+ParkingLot-1.4.2.pdf
+encoded_gs_key*
+*.iml
+*.DS_Store

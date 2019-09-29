@@ -1,0 +1,8 @@
+create_parking_6
+park KA-01-HH-1hite
+par
+pa
+park KA-01-HH-7777 Red
+p
+pa
+park KA-01-P-3
